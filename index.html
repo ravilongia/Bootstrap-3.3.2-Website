@@ -1,0 +1,503 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ravi Longia</title>
+  <meta name="viewport" content="width=device-width initaial-scale= 1.0" />
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-social.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="container" id="main">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="brand-logo">
+            <a class="navbar-brand pull-left" href="#">Ravi<strong> Longia</strong></a>
+          </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li><a href="#">Contact</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Web Designing</a>
+                </li>
+                <li><a href="#">Web Development</a>
+                </li>
+                <li><a href="#">SEO</a>
+                </li>
+                <li class="divider"></li>
+                <li class="dropdown-header">More Services</li>
+                <li><a href="#">Content Creation</a>
+                </li>
+                <li><a href="#">Social Meadia Marketing</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>
+            </button>
+          </form>
+          <ul class="nav navbar-nav navbar-right" id="search-bar">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-wrench"></span>Setting</a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-off"></span>Signout</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!-- Slider -->
+    <div class="page-header">
+    </div>
+    <!--	End page-header -->
+    <div class="carousel slide" id="myCarousel">
+
+      <!--	Indicaters -->
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+        <li data-slide-to="1" data-target="myCarousel"></li>
+        <li data-slide-to="2" data-target="myCarousel"></li>
+      </ol>
+
+      <!--	Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active" id="slide1">
+          <div class="carousel-caption">
+            <h1>Bootstrap 3</h1>
+            <p style="font-size:16px">Learn how to build your first responsive website with the brand new twitter bootstrap 3</p>
+          </div>
+          <!-- End carousel-caption -->
+        </div>
+        <!--	End slide1 -->
+
+        <div class="item" id="slide2">
+          <div class="carousel-caption">
+            <h1>Learn to code in 4-hours!</h1>
+            <p style="font-size:16px">PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousands of aspiring web designers launch their website career.</p>
+          </div>
+          <!-- End carousel-caption -->
+        </div>
+        <!--	End slide1 -->
+
+        <div class="item" id="slide3">
+          <div class="carousel-caption">
+            <h1>Github free Web Hosting</h1>
+            <p style="font-size:16px">Learn how to buy a perfect domain name and hosting pacckage, and get your website live on the web wuith ease.</p>
+          </div>
+          <!-- End carousel-caption -->
+        </div>
+        <!--	End slide1 -->
+
+      </div>
+      <!--	End carousel-inner -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--	End carousel slide -->
+    <!-- End Slider -->
+    <div class="row" id="bigCallout">
+      <div class="col-lg-12">
+
+        <!-- visible only on small devices -->
+
+        <div class="alert alert-success alert-dismissible fade in" role="alert" id="successAlert">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <h4>Success!!</h4>
+          <p>You just made this element display by using jQuery. Click the x in the top right corner to close this bad boy.</p>
+        </div>
+
+        <div class="well well-sm visible-xs">
+          <a href="#" class="btn btn-lg btn-block btn-primary"><span class="glyphicon glyphicon-phone"> Give us a call</span></a>
+        </div>
+        <!-- End well small -->
+
+        <div class="well">
+          <div class="page-header">
+            <h1>A Fancy Header <small> A subheader for extra awesome.</small></h1>
+          </div>
+          <p class="lead">Some solid leading copy will help your user get engaged. Use this area to come up with something real nice. Know what i'm sayin?</p>
+          <a href="" class="btn btn-primary" id="alertMe">Click a nice big button</a>
+          <a href="" class="btn btn-link">or a secondary link</a>
+        </div>
+        <!-- End Well -->
+      </div>
+      <!-- End col-lg-12 -->
+    </div>
+    <!--	End bigCallout -->
+
+
+    <div class="row" id="featuresHeading">
+      <div class="col-12">
+        <h2>More features</h2>
+        <p class="lead">Cornhole kisch williamsburg pug bicycle rights vegan. Neutra food truck occupy kisch sustainable</p>
+      </div>
+      <!-- End col-12 -->
+    </div>
+    <!-- EndfeaturesHeading -->
+    <div class="row" id="features">
+      <div class="col-sm-4 feature">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Markup with HTML5</h3>
+          </div>
+          <!-- End panel heading -->
+          <div class="panel-body">
+            <img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+            <p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+            <a href="https://github.com/ravilongia" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5</a>
+          </div>
+        </div>
+        <!-- End panel -->
+      </div>
+      <!-- End col-sm-4 -->
+      <div class="col-sm-4 feature">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Style with CSS3</h3>
+          </div>
+          <!-- End panel heading -->
+          <div class="panel-body">
+            <img src="images/badge_css3.jpg" alt="HTML5" class="img-circle">
+            <p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+            <a href="https://github.com/ravilongia" target="_blank" class="btn btn-danger btn-block">Style it up with CSS3</a>
+          </div>
+        </div>
+        <!-- End panel -->
+      </div>
+      <!-- End col-sm-4 -->
+      <div class="col-sm-4 feature">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Framework by Bootstrap 3</h3>
+          </div>
+          <!-- End panel heading -->
+          <div class="panel-body">
+            <img src="images/badge_bootstrap.jpg" alt="HTML5" class="img-circle">
+            <p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+            <a href="https://github.com/ravilongia" target="_blank" class="btn btn-info btn-block">More Bootstrap</a>
+          </div>
+        </div>
+        <!-- End panel -->
+      </div>
+      <!-- End col-sm-4 -->
+    </div>
+    <!-- End features -->
+
+
+    <div class="row" id="moreInfo">
+      <div class="col-sm-6">
+        <h3>Neat tabable Content</h3>
+        <div class="tabable">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a>
+            </li>
+            <li><a href="#tab2" data-toggle="tab">Section 2</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+              <h4><span class="glyphicon glyphicon-map-marker"></span> Our location <small>More like our favourite surf spot</small></h4>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13810.804381318116!2d76.98387445!3d30.074101250000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e4f958dc4fa1b%3A0xe2f87254fe155135!2sBabain%2C+Haryana+136156!5e0!3m2!1sen!2sin!4v1425222670588"
+              width="100%" height="200" frameborder="0" style="border:0"></iframe>
+              <p>Lorem ipsum dolor sit amet, labitur legendos indoctum quo cu. Eu sed eirmod similique liberavisse, at pro eleifend salutatus intellegam, his tation tantas placerat cu. Ius mucius molestie volutpat an, aperiri invenire moderatius ad est.
+                Qui ne sale senserit. No timeam epicuri gloriatur quo, nobis invidunt incorrupte has ei, tota laudem vis ei. Mea in nibh mundi ponderum. Ei mea epicuri rationibus, fierent constituto scripserit ut has.
+              </P>
+              <p>
+                Lorem ipsum dolor sit amet, labitur legendos indoctum quo cu. Eu sed eirmod similique liberavisse, at pro eleifend salutatus intellegam, his tation tantas placerat cu. Ius mucius molestie volutpat an, aperiri invenire moderatius ad est. Qui ne sale senserit.
+                No timeam epicuri gloriatur quo, nobis invidunt incorrupte has ei, tota laudem vis ei. Mea in nibh mundi ponderum. Ei mea epicuri rationibus, fierent constituto scripserit ut has.
+              </p>
+            </div>
+            <!-- End tab1-->
+            <div class="tab-pane" id="tab2">
+              <h4>A left floated Picture <small>Using small placehold.it</small></h4>
+              <img src="http://placehold.it/140" class="thumbnail pull-left">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </P>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <hr>
+              <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal">
+                <span class="glyphicon glyphicon-hand-up"></span> Click for a modal window!</a>
+
+              <!-- ================ modal ==================== -->
+
+              <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">&times;</button>
+                      <h3 class="modal-title">A Modal window</h3>
+                    </div>
+                    <!-- End modal-header -->
+                    <div class="modal-body">
+                      <h3>Text in a modal</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="#" class="btn btn-danger pop" data-placement="top" data-original-title="You clicked it!!" data-content="I know you would.">Don't click this button</a>
+                      <h3>Tooltips in a modal</h3>
+                      <a href="#" data-original-title="Tooltip" rel="tooltip">This link</a> should have tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one </a>!
+                      <hr>
+                      <p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small>
+                      </p>
+
+                      <form class="form-horizontal">
+
+                        <div class="form-group">
+                          <label class="col-lg-2 control-label" id="inputName">Name</label>
+                          <div class="col-lg-10">
+                            <input class="form-control" id="inputName" placeholder="Enter your name" type="text">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="col-lg-2 control-label" id="inputEmail">Email</label>
+                          <div class="col-lg-10">
+                            <input class="form-control" id="inputEmail" placeholder="Enter your email" type="email">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="col-lg-2 control-label" id="inputMessage">Message</label>
+                          <div class="col-lg-10">
+                            <textarea class="form-control" id="inputMessage" placeholder="Type your message here" rows="3"></textarea>
+                            <button class=" btn btn-success pull-right" type="submit">Send</button>
+                          </div>
+                        </div>
+
+                      </form>
+                      <!-- End form-horizontal -->
+
+                    </div>
+                    <!-- End modal-body -->
+
+                    <div class="modal-footer">
+                      <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                      <button class="btn btn-primary" type="button">Save changes</button>
+                    </div>
+                    <!-- End modal-footer-->
+
+                  </div>
+                  <!-- End modal-content -->
+                </div>
+                <!-- End modal-dialog -->
+              </div>
+              <!-- End myModal -->
+            </div>
+            <!-- End tab2-->
+
+
+          </div>
+          <!-- End tab-content-->
+        </div>
+        <!-- End tabable-->
+      </div>
+      <!-- End col-sm-6 -->
+
+      <div class="col-sm-6">
+        <h3>Some Text Info</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <h4>A List Group</h4>
+        <div class="lst-group">
+          <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">Kale</h4>
+            <p class="list-group-item-text">Kale or borecole is a vegetable with green or purple leaves, in which the central leaves do not form a head.</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Carrots</h4>
+            <p class="list-group-item-text">The carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist. It has a crisp texture when fresh.</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Steel-cut oats</h4>
+            <p class="list-group-item-text">
+              Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
+          </a>
+        </div>
+        <!-- End lst-group -->
+        <h4>A small heading</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <!-- End col-sm-6 -->
+
+      <hr>
+
+    </div>
+    <!-- End moreInfo -->
+    <div class="row" id="moreCourses">
+      <div class="col-12">
+        <h3>Learn More anout Web Design</h3>
+        <div class="thumbnails row">
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <img src="images/item_psd2html5.jpg" alt="PSD to HTML5 & CSS3">
+
+              <div class="label label-success price">
+                <span class="glyphicon glyphicon-tag"></span>Free
+              </div>
+
+              <div class="caption">
+                <h3>PSD to HTML5 &amp; CSS3</h3>
+                <p>Learn how to take a PSD and turn it into a beautiful, hand-coded HTML5 & CSS3 website with this web design crash
+                </p>
+
+                <p>
+                  <a href="https://github.com/ravilongia" class="btn btn-sm btn-primary" target="_blank">Take Course</a>
+                  <a href="https://github.com/ravilongia" class="btn btn-sm btn-link" target="_blank">Learn More</a>
+                </p>
+              </div>
+              <!-- End Caption -->
+
+            </div>
+            <!-- End thumbnail -->
+          </div>
+          <!-- End col-6 -->
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <img src="images/item_webhosting101.jpg" alt="Web Hosting 101">
+
+              <div class="label label-info price">
+                <span class="glyphicon glyphicon-tag"></span>Free
+              </div>
+
+              <div class="caption">
+                <h3>Github free Web Hosting</h3>
+                <p>Learn how to publish your own website live in no time with this web hosting crash course. Plus setup your first Wordpress site in 5-minutes!
+                </p>
+                <p>
+                  <a href="https://github.com/ravilongia" class="btn btn-sm btn-primary" target="_blank">Take Course</a>
+                  <a href="https://github.com/ravilongia" class="btn btn-sm btn-link" target="_blank">Learn More</a>
+                </p>
+              </div>
+              <!-- End Caption -->
+
+            </div>
+            <!-- End thumbnail -->
+          </div>
+          <!-- End col-6 -->
+        </div>
+        <!-- End row -->
+      </div>
+      <!-- End col-12 -->
+    </div>
+    <!-- End moreCourses -->
+
+  </div>
+  <!-- End Container -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <h6>Copyright &copy; 2015 Ravi Longia</h6>
+        </div>
+        <!-- End col-sm-2 -->
+        <div class="col-sm-4">
+          <h6>About Us</h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <!-- End col-sm-4 -->
+        <div class="col-sm-2">
+          <h6>Navigation</h6>
+          <ul class="unstyled">
+            <li><a href="#">Home</a>
+            </li>
+            <li><a href="#">Services</a>
+            </li>
+            <li><a href="#">Links</a>
+            </li>
+            <li><a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- End col-sm-2 -->
+        <div class="col-sm-2">
+          <h6>Follow Us</h6>
+          <ul class="unstyled">
+            <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-google-plus-square fa-2x"></i></span></a>
+            </li>
+            <li><a href="#"><i class="fa fa-instagram-square fa-2x"></i></span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- End col-sm-2 -->
+        <div class="col-sm-2">
+          <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Ravi Longia</h6>
+        </div>
+        <!-- End col-sm-2 -->
+      </div>
+      <!-- End row -->
+    </div>
+    <!-- End Container -->
+  </footer>
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="bootstrap/js/jquery-1.10.2.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/docs.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="bootstrap/js/ie-emulation-modes-warning.js"></script>
+  <script src="js/style.js"></script>
+</body>
+
+</html>
